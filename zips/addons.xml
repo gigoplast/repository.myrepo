@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.testicoz" name="Test" version="0.0.1" provider-name="gigop bost">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Quick Test add-on</summary>
+		<description lang="en">Is For Trail no for Lifetime Purpess</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre>dutch,french,uk,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="repository.myrepo" name="Test Repo By Me" version="0.0.1" provider-name="gigop bost">
+	<extension point="xbmc.addon.repository" name="Test Repo By Me">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/gigoplast/repository.myrepo/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/gigoplast/repository.myrepo/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/gigoplast/repository.myrepo/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Quick Test For Video addons in this repository</summary>
+		<description lang="en">Just for Testing Purpess</description>
+		<genre>adult,anime,movies,dutch,french,uk,usa</genre>
+	</extension>
+</addon>
+</addons>
